@@ -1,0 +1,20 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "description": "Simple node.js application for test HAPorxy",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "express",
+    "node.js"
+  ],
+  "author": "Namyun Kim",
+  "license": "MIT",
+  "dependencies": {
+    "logfmt": "~1.1.2",
+    "express": "~4.4.5"
+  }
+}
