@@ -8,7 +8,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/',function(req, res) {
-    res.send('Hello, World!' + process.env + "6");
+    res.send('Hello, World!' + process.env + "LAST");
 });
 
 var port = Number(process.env.PORT || 4000);
